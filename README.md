@@ -157,9 +157,9 @@ Some of these tips were authored by Myself, [MacRumors](https://www.macrumors.co
 
 - Copy files from one folder to another - Option+Dragging and dropping files to copy them from one place to another or try Terminal’s Ditto command instead.
   ```
-  Ditto [original folder] [new folder]
+  ditto [original folder] [new folder]
   ```
-  Where ‘original folder’ and ‘new folder’ are the file paths of the source and destination of the files. To see each file’s name in the Terminal window as it’s copied, type ‘-v’ after Ditto. This is the command for verbose mode.
+  Where ‘original folder’ and ‘new folder’ are the file paths of the source and destination of the files. To see each file’s name in the Terminal window as it’s copied, type ‘-v’ after ditto. This is the command for "verbose mode".
 
 - Download files without your browser - If you’ve got the URL of a file you need to download, but don’t want to download it in Safari, Chrome, or Firefox, Terminal can help. It needs just two commands – one to set Terminal’s location to your Downloads folder (or anywhere else you want to put the downloaded file) and one to download the file. To set the location, use the command below. Change ‘Downloads’ to a different folder if you want to, remembering that if it’s not in the first level of your user directory, you’ll have to type the full path – or drag the folder on to the Terminal window.
   ```
