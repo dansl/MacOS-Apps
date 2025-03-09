@@ -1,6 +1,7 @@
-# MacOS-Stuff
+# MacOS Stuff
 Here's a list of all my favorite apps and tips about MacOS.
 
+## MacOS Apps
 | Name | Price | Note |
 | --- | --- | --- |
 | [1Password](https://1password.com) | $ | Great cross-platform password manager app if you have other non-Apple devices, otherwise Apple's Password app works great too. |
@@ -85,7 +86,7 @@ Here's a list of all my favorite apps and tips about MacOS.
 
 ## MacOS Tips and Tricks
 
-Some of these tips were authored by Myself and [MacRumors](https://www.macrumors.com/guide/useful-mac-tips/)
+Some of these tips were authored by Myself, [MacRumors](https://www.macrumors.com/guide/useful-mac-tips/), and [Macworld](https://www.macworld.com/article/671711/30-terminal-tips-tricks-and-projects-for-mac.html)
 
 ### Desktop and App Management
 
@@ -139,8 +140,6 @@ Some of these tips were authored by Myself and [MacRumors](https://www.macrumors
 - Quick Access to Function Key Settings - When pressing one of the function keys to activate Mission Control, Brightness, Media playback, and more, if you hold down Option when you press, you can access the corresponding Settings options inside System Preferences for those keys. Note: This doesn't work on Touch Bar Macs.
 
 ### Terminal Tips
-
-Some of these tips were authored by Myself and [Macworld](https://www.macworld.com/article/671711/30-terminal-tips-tricks-and-projects-for-mac.html)
 
 - Right click a file and hold option key to change "copy" to "copy as path", or drag the file into a Terminal window to input its path.
 
