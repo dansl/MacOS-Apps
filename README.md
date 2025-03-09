@@ -79,4 +79,4 @@ A list of my favorite MacOS apps
 | [VLC](https://www.videolan.org/vlc/) | FREE | Media player. |
 | [Windows RDP App](https://www.microsoft.com/en-us/windows/apps) | FREE | Remote Desktop App for non-MacOS devices. |
 | [Xcode](https://developer.apple.com/xcode/) | FREE | Apple's IDE for developing software. |
-| [Zed](https://zedapp.io) | FREE | Amazing text editor and development IDE with local AI support and much much more. |
+| [Zed](https://zed.dev) | FREE | Amazing text editor and development IDE with local AI support and much much more. |
