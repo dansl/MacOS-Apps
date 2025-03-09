@@ -65,6 +65,7 @@ A list of my favorite MacOS apps
 | [Pixelmator](https://www.pixelmator.com/pro/) | $ | Image creation and photo editing software. A great alternative to Photoshop, and much cheaper comparatively. |
 | [Postman](https://www.postman.com) | FREE | API testing and development tool. |
 | [Prompt](https://panic.com/prompt/) | $ | Remote SSH Manager. |
+| [Reaper](https://www.reaper.fm) | FREE | Powerful audio editing tool. |
 | [Reeder Classic](https://reederapp.com/classic/) | $ | RSS Reader. |
 | [Apple Remote Desktop](https://apps.apple.com/us/app/apple-remote-desktop/id409907375?mt=12) | $ | Apple Remote Desktop Manager. |
 | [Reins](https://github.com/ibrahimcetin/reins) | FREE | A chat-like UI for chatting with local AI LLMs via Ollama. |
