@@ -297,7 +297,7 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
   sudo defaults delete /Library/Preferences/com.apple.loginwindow
   ```
 
--Make your Mac speak - You can make your Mac say anything you want in the currently selected voice. To do that, use the ‘Say’ command, like this:
+- Make your Mac speak - You can make your Mac say anything you want in the currently selected voice. To do that, use the ‘Say’ command, like this:
   ```
   Say “whatever you want your Mac to say”
   ```
