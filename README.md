@@ -47,7 +47,7 @@ A list of my favorite MacOS apps
 | [HiddenBar](https://github.com/dwarvesf/hidden) | FREE | Lets you hide menu bar items to give your Mac a cleaner look. |
 | [HomeBrew](https://brew.sh) | FREE | Package manager for all your command line tools, and will make your MacOS feel more like Linux OS. |
 | [Hush](https://github.com/oblador/hush) | FREE | Content blocker for Safari. |
-| [iStatsMenu](https://bjango.com/mac/istatmenus/) | $ | Displays system information in the menu bar and can monitor and show alerts on system events. |
+| [iStats Menu](https://bjango.com/mac/istatmenus/) | $ | Displays system information in the menu bar and can monitor and show alerts on system events. |
 | [Kaleidoscope](https://kaleidoscope.app) | $ | Visual diff tool for images and text files. |
 | [Ka-Block!](https://github.com/dgraham/Ka-Block) | FREE | Ad blocker for Safari. |
 | [Kiwix](https://kiwix.org/en/) | FREE | Store local copies of Wikipedia on your Mac. |
