@@ -6,7 +6,11 @@ A list of my favorite MacOS apps
 | [1Password](https://1password.com) | $ | Great cross-platform password manager app if you have other non-Apple devices, otherwise Apple's Password app works great too. |
 | [Affinity Photo](https://affinity.serif.com/en-us/photo/) | $ | A great alternative to Photoshop, and much cheaper comparatively. |
 | [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) | FREE | Keep your Mac awake for a set time or until an action. |
-| Apple Music | FREE | Comes pre-installed with MacOS, a great music streaming service. |
+| [Apple GarageBand](https://www.apple.com/mac/garageband/) | FREE | Simple but powerful music creation app. |
+| [Apple iMovie](https://www.apple.com/imovie) | FREE | Simple but powerful video editing software. |
+| Apple iPhone Mirroring | FREE | Comes pre-installed with MacOS, use your iPhone remotely. |
+| Apple iPad Extend Screen | FREE | Comes pre-installed with MacOS, extend your screen to your iPad. |
+| [Apple Music](https://music.apple.com/) | FREE | Comes pre-installed with MacOS, a great music streaming service. |
 | Apple News | FREE | Comes pre-installed with MacOS, a great news aggregator. |
 | Apple Password | FREE | Comes pre-installed with MacOS, a great password management tool. |
 | Apple Podcasts | FREE | Comes pre-installed with MacOS, a great podcast streaming service. |
@@ -31,7 +35,6 @@ A list of my favorite MacOS apps
 | [Encrypto](https://macpaw.com/encrypto) | FREE | Drag and Drop encryption app for encrypting files. |
 | [FatDriveSorter](https://fat-drive-sorter.netlify.app) | FREE | For those random times you need to sort files on an old FAT32 storage device. |
 | [FreeCad](https://www.freecad.org) | FREE | Open-Source 3D CAD software for engineering. |
-| GarageBand | FREE | Comes pre-installed on Mac, Music creation app. |
 | [Gifski](https://gif.ski) | FREE | Drag and Drop GIF maker for videos. |
 | [Github Desktop](https://desktop.github.com/download/) | FREE | Manage your Github Repos easily. |
 | [Handbrake](https://handbrake.fr) | FREE | Simple video converter and compressor app. |
@@ -39,9 +42,6 @@ A list of my favorite MacOS apps
 | [HiddenBar](https://github.com/dwarvesf/hidden) | FREE | Lets you hide menu bar items to give your Mac a cleaner look. |
 | [HomeBrew](https://brew.sh) | FREE | Package manager for all your command line tools, and will make your MacOS feel more like Linux OS. |
 | [Hush](https://github.com/oblador/hush) | FREE | Content blocker for Safari. |
-| iMovie | FREE | Comes pre-installed with MacOS, a video editing software. |
-| iPhone Mirroring | FREE | Comes pre-installed with MacOS, use your iPhone remotely. |
-| iPad Extend Screen | FREE | Comes pre-installed with MacOS, extend your screen to your iPad. |
 | [iStatsMenu](https://bjango.com/mac/istatmenus/) | $ | Displays system information in the menu bar and can monitor and show alerts on system events. |
 | [Ka-Block!](https://github.com/dgraham/Ka-Block) | FREE | Content blocker for Safari. |
 | [Kiwix](https://kiwix.org/en/) | FREE | Store local copies of Wikipedia on your Mac. |
