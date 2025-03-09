@@ -85,7 +85,7 @@ A list of my favorite MacOS apps.
 
 ## MacOS Tips and Tricks
 
-This list was originally created by [MacRumors](https://www.macrumors.com/guide/useful-mac-tips/)
+These tips were authored by [MacRumors](https://www.macrumors.com/guide/useful-mac-tips/)
 
 ### Desktop and App Management
 
