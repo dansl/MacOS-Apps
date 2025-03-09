@@ -6,11 +6,13 @@ A list of my favorite MacOS apps
 | [1Password](https://1password.com) | $ | Great cross-platform password manager app if you have other non-Apple devices, otherwise Apple's Password app works great too. |
 | [Affinity Photo](https://affinity.serif.com/en-us/photo/) | $ | A great alternative to Photoshop, and much cheaper comparatively. |
 | [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) | FREE | Keep your Mac awake for a set time or until an action. |
+| Apple Calendar | FREE | Comes pre-installed with MacOS, a great calendar app. |
 | [Apple GarageBand](https://www.apple.com/mac/garageband/) | FREE | Simple but powerful music creation app. |
 | Apple Home | FREE | Comes pre-installed with MacOS, a great home automation app. |
 | [Apple iMovie](https://www.apple.com/imovie/index.html) | FREE | Simple but powerful video editing software. |
 | Apple iPhone Mirroring | FREE | Comes pre-installed with MacOS, use your iPhone remotely. |
 | Apple iPad Extend Screen | FREE | Comes pre-installed with MacOS, extend your screen to your iPad. |
+| Apple Mail | FREE | Comes pre-installed with MacOS, a great email client. |
 | [Apple Music](https://music.apple.com/) | FREE | Comes pre-installed with MacOS, a great music streaming service. |
 | Apple News | FREE | Comes pre-installed with MacOS, a great news aggregator. |
 | Apple Password | FREE | Comes pre-installed with MacOS, a great password management tool. |
