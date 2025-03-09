@@ -10,8 +10,8 @@ A list of my favorite MacOS apps
 | [Apple GarageBand](https://www.apple.com/mac/garageband/) | FREE | Simple but powerful music creation app. |
 | Apple Home | FREE | Comes pre-installed with MacOS, a great home automation app. |
 | [Apple iMovie](https://www.apple.com/imovie/index.html) | FREE | Simple but powerful video editing software. |
-| Apple iPhone Mirroring | FREE | Comes pre-installed with MacOS, use your iPhone remotely. |
-| Apple iPad Extend Screen | FREE | Comes pre-installed with MacOS, extend your screen to your iPad. |
+| [Apple iPhone Mirroring](https://support.apple.com/en-us/120421) | FREE | Comes pre-installed with MacOS, Get notifications and access your iPhone remotely. |
+| [Apple Sidecar](https://support.apple.com/en-us/102597) | FREE | Comes pre-installed with MacOS, use an iPad as a second screen on your Mac. |
 | Apple Mail | FREE | Comes pre-installed with MacOS, a great email client. |
 | [Apple Music](https://music.apple.com/) | FREE | Comes pre-installed with MacOS, a great music streaming service. |
 | Apple News | FREE | Comes pre-installed with MacOS, a great news aggregator. |
