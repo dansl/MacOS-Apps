@@ -7,6 +7,7 @@ A list of my favorite MacOS apps
 | [Affinity Photo](https://affinity.serif.com/en-us/photo/) | $ | A great alternative to Photoshop, and much cheaper comparatively. |
 | [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) | FREE | Keep your Mac awake for a set time or until an action. |
 | [Apple GarageBand](https://www.apple.com/mac/garageband/) | FREE | Simple but powerful music creation app. |
+| Apple Home | FREE | Comes pre-installed with MacOS, a great home automation app. |
 | [Apple iMovie](https://www.apple.com/imovie/index.html) | FREE | Simple but powerful video editing software. |
 | Apple iPhone Mirroring | FREE | Comes pre-installed with MacOS, use your iPhone remotely. |
 | Apple iPad Extend Screen | FREE | Comes pre-installed with MacOS, extend your screen to your iPad. |
@@ -15,6 +16,7 @@ A list of my favorite MacOS apps
 | Apple Password | FREE | Comes pre-installed with MacOS, a great password management tool. |
 | Apple Podcasts | FREE | Comes pre-installed with MacOS, a great podcast streaming service. |
 | Apple Safari | FREE | Comes pre-installed with MacOS, secure web browser. |
+| Apple Shortcuts | FREE | Comes pre-installed with MacOS, a powerful tool for automating tasks. |
 | Apple Terminal | FREE | Comes pre-installed with MacOS, a powerful command-line interface. |
 | Apple Time Machine | FREE | Comes pre-installed with MacOS, a great backup tool. |
 | Apple TV | FREE | Comes pre-installed with MacOS, a great streaming service. |
@@ -43,11 +45,13 @@ A list of my favorite MacOS apps
 | [HomeBrew](https://brew.sh) | FREE | Package manager for all your command line tools, and will make your MacOS feel more like Linux OS. |
 | [Hush](https://github.com/oblador/hush) | FREE | Content blocker for Safari. |
 | [iStatsMenu](https://bjango.com/mac/istatmenus/) | $ | Displays system information in the menu bar and can monitor and show alerts on system events. |
+| [Kaleidoscope](https://kaleidoscope.app) | $ | Visual diff tool for images and text files. |
 | [Ka-Block!](https://github.com/dgraham/Ka-Block) | FREE | Ad blocker for Safari. |
 | [Kiwix](https://kiwix.org/en/) | FREE | Store local copies of Wikipedia on your Mac. |
 | [LanScan](https://www.iwaxx.com/lanscan/) | FREE | Scan your network and look for devices and ports. |
 | [Latest](https://github.com/mangerlahn/Latest) | FREE | Scans your Mac to see if you have the latest apps installed or if you need updates. |
 | [Maccy](https://github.com/p0deje/Maccy) | FREE | Clipboard history manager for MacOS. |
+| [Meeter](https://apps.apple.com/us/app/meeter-for-zoom-teams-co/id1510445899) | FREE | Helpful app to view your upcoming online meetings via the Mac top bar. |
 | [Mela](https://mela.recipes) | FREE | Manage all your food recipies. |
 | [Motrix](https://motrix.app) | FREE | Download manager that will pull downloads off servers faster by using multiple streams. |
 | [NewFile](https://github.com/dansl/finder-new-file) | FREE | Simple app that will generate a blank file |
