@@ -4,7 +4,7 @@ A list of my favorite MacOS apps
 | Name | Price | Note |
 | --- | --- | --- |
 | [1Password](https://1password.com) | $ | Great cross-platform password manager app if you have other non-Apple devices, otherwise Apple's Password app works great too. |
-| [Affinity Photo](https://affinity.serif.com/en-us/photo/) | $ | A great alternative to Photoshop, and much cheaper comparatively. |
+| [Affinity Photo](https://affinity.serif.com/en-us/photo/) | $ | Image creation and photo editing software. A great alternative to Photoshop, and much cheaper comparatively. |
 | [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) | FREE | Keep your Mac awake for a set time or until an action. |
 | Apple Calendar | FREE | Comes pre-installed with MacOS, a great calendar app. |
 | [Apple GarageBand](https://www.apple.com/mac/garageband/) | FREE | Simple but powerful music creation app. |
@@ -62,6 +62,7 @@ A list of my favorite MacOS apps
 | [OpenEmu](https://github.com/Azyzraissi/OpenEmu) | FREE | Multi-platform retro gaming emulator, play almost any retro game on your Mac. |
 | [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) | FREE | 3D model slicer for prepping your models to 3D Print. |
 | [Parallels](https://www.parallels.com) | $ | Virtual Machine app for running Windows or Linux inside MacOS. |
+| [Pixelmator](https://www.pixelmator.com/pro/) | $ | Image creation and photo editing software. A great alternative to Photoshop, and much cheaper comparatively. |
 | [Postman](https://www.postman.com) | FREE | API testing and development tool. |
 | [Prompt](https://panic.com/prompt/) | $ | Remote SSH Manager. |
 | [Reeder Classic](https://reederapp.com/classic/) | $ | RSS Reader. |
