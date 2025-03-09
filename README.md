@@ -1,5 +1,5 @@
 # MacOS Stuff
-Here's a list of all my favorite apps and tips about MacOS.
+Here's a list of all my favorite MacOS apps, tips, and tricks.
 
 ## MacOS Apps
 | Name | Price | Note |
