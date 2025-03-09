@@ -34,7 +34,7 @@ A list of my favorite MacOS apps
 | [DrawThings](https://drawthings.ai) | FREE | Open-Source AI Image generator that supports a ton of free AI Models and is user friendly. |
 | [Encrypto](https://macpaw.com/encrypto) | FREE | Drag and Drop encryption app for encrypting files. |
 | [FatDriveSorter](https://fat-drive-sorter.netlify.app) | FREE | For those random times you need to sort files on an old FAT32 storage device. |
-| [FreeCad](https://www.freecad.org) | FREE | Open-Source 3D CAD software for engineering. |
+| [FreeCAD](https://www.freecad.org) | FREE | Open-Source 3D CAD software for engineering. |
 | [Gifski](https://gif.ski) | FREE | Drag and Drop GIF maker for videos. |
 | [Github Desktop](https://desktop.github.com/download/) | FREE | Manage your Github Repos easily. |
 | [Handbrake](https://handbrake.fr) | FREE | Simple video converter and compressor app. |
@@ -43,7 +43,7 @@ A list of my favorite MacOS apps
 | [HomeBrew](https://brew.sh) | FREE | Package manager for all your command line tools, and will make your MacOS feel more like Linux OS. |
 | [Hush](https://github.com/oblador/hush) | FREE | Content blocker for Safari. |
 | [iStatsMenu](https://bjango.com/mac/istatmenus/) | $ | Displays system information in the menu bar and can monitor and show alerts on system events. |
-| [Ka-Block!](https://github.com/dgraham/Ka-Block) | FREE | Content blocker for Safari. |
+| [Ka-Block!](https://github.com/dgraham/Ka-Block) | FREE | Ad blocker for Safari. |
 | [Kiwix](https://kiwix.org/en/) | FREE | Store local copies of Wikipedia on your Mac. |
 | [LanScan](https://www.iwaxx.com/lanscan/) | FREE | Scan your network and look for devices and ports. |
 | [Latest](https://github.com/mangerlahn/Latest) | FREE | Scans your Mac to see if you have the latest apps installed or if you need updates. |
@@ -52,13 +52,13 @@ A list of my favorite MacOS apps
 | [Motrix](https://motrix.app) | FREE | Download manager that will pull downloads off servers faster by using multiple streams. |
 | [NewFile](https://github.com/dansl/finder-new-file) | FREE | Simple app that will generate a blank file |
 | [Ollama](https://ollama.com) | FREE | Run AI LLMs locally on your Mac. |
-| [OpenEmu for Apple Silicon](https://github.com/Azyzraissi/OpenEmu) | FREE | Multi-platform retro gaming emulator, play almost any retro game on your Mac. |
+| [OpenEmu](https://github.com/Azyzraissi/OpenEmu) | FREE | Multi-platform retro gaming emulator, play almost any retro game on your Mac. |
 | [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) | FREE | 3D model slicer for prepping your models to 3D Print. |
 | [Parallels](https://www.parallels.com) | $ | Virtual Machine app for running Windows or Linux inside MacOS. |
 | [Prompt](https://panic.com/prompt/) | $ | Remote SSH Manager. |
 | [Reeder Classic](https://reederapp.com/classic/) | $ | RSS Reader. |
 | [Apple Remote Desktop](https://apps.apple.com/us/app/apple-remote-desktop/id409907375?mt=12) | $ | Apple Remote Desktop Manager. |
-| [Reins](https://github.com/ibrahimcetin/reins) | FREE | A Chat like UI for talking to local AI LLMs in Ollama. |
+| [Reins](https://github.com/ibrahimcetin/reins) | FREE | A chat-like UI for chatting with local AI LLMs via Ollama. |
 | [Signal](https://signal.org) | FREE | Secure messaging app. |
 | [Sink It](https://gosinkit.com) | FREE | Makes Reddit less crappy... |
 | [Steam](https://store.steampowered.com) | FREE | Gaming app with all the games! |
@@ -68,6 +68,6 @@ A list of my favorite MacOS apps
 | [Transmission](https://transmissionbt.com) | FREE | BitTorrent client. |
 | [Transmit](https://panic.com/transmit/) | $ | FTP and remote file manager app. |
 | [VLC](https://www.videolan.org/vlc/) | FREE | Media player. |
-| [Windows RDP App](https://www.microsoft.com/en-us/windows/apps) | $ | Remote Desktop App for non-MacOS devices. |
+| [Windows RDP App](https://www.microsoft.com/en-us/windows/apps) | FREE | Remote Desktop App for non-MacOS devices. |
 | [Xcode](https://developer.apple.com/xcode/) | FREE | Apple's IDE for developing software. |
 | [Zed](https://zedapp.io) | FREE | Amazing text editor and development IDE with local AI support and much much more. |
