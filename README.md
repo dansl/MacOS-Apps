@@ -145,173 +145,173 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
 - Right click a file and hold option key to change "copy" to "copy as path", or drag the file into a Terminal window to input its path.
 
 - In terminal, you can add "man" before any command to read it's manual page. For example.
-```
-man ditto
-```
-Now you can see how to use the command, scrolling with your mouse or arrow keys and press 'q' key to quit.
+  ```
+  man ditto
+  ```
+  Now you can see how to use the command, scrolling with your mouse or arrow keys and press 'q' key to quit.
 
 - Always show hidden files and folders - You can use shortcut Cmd+Shift+Period to show hidden files and folders, but that is only somewhat temporary. To permanently show hidden files and folders.
-```
-defaults write com.apple.finder AppleShowAllFiles -bool TRUE
-killall Finder
-```
-Change TRUE to FALSE to disable.
+  ```
+  defaults write com.apple.finder AppleShowAllFiles -bool TRUE
+  killall Finder
+  ```
+  Change TRUE to FALSE to disable.
 
 - Copy files from one folder to another - Option+Dragging and dropping files to copy them from one place to another or try Terminal’s Ditto command instead.
-```
-Ditto [original folder] [new folder]
-```
-Where ‘original folder’ and ‘new folder’ are the file paths of the source and destination of the files. To see each file’s name in the Terminal window as it’s copied, type ‘-v’ after Ditto. This is the command for verbose mode.
+  ```
+  Ditto [original folder] [new folder]
+  ```
+  Where ‘original folder’ and ‘new folder’ are the file paths of the source and destination of the files. To see each file’s name in the Terminal window as it’s copied, type ‘-v’ after Ditto. This is the command for verbose mode.
 
 - Download files without your browser - If you’ve got the URL of a file you need to download, but don’t want to download it in Safari, Chrome, or Firefox, Terminal can help. It needs just two commands – one to set Terminal’s location to your Downloads folder (or anywhere else you want to put the downloaded file) and one to download the file. To set the location, use the command below. Change ‘Downloads’ to a different folder if you want to, remembering that if it’s not in the first level of your user directory, you’ll have to type the full path – or drag the folder on to the Terminal window.
-```
-cd ~/Downloads/
-curl -O [the URL of the file]
-```
+  ```
+  cd ~/Downloads/
+  curl -O [the URL of the file]
+  ```
 
 - Disable drop shadows on a screenshot - When you use Command-Shift-4 then hit Spacebar to take a screen grab of a window on your Mac, a drop shadow is added to the window. If you’d rather not have it, use this command to take a screen grab without drop shadow.
-```
-defaults write com.apple.screencapture disable-shadow -bool TRUE
-killall SystemUIServer
-```
+  ```
+  defaults write com.apple.screencapture disable-shadow -bool TRUE
+  killall SystemUIServer
+  ```
 
 - Keep your Mac awake - Over-riding the sleep settings in Energy preferences takes just one command.
-```
-caffeinate
-```
-Press Ctrl-C to end the command or set a time limit like this
-```
-caffeinate -u -t [number of seconds]
-```
+  ```
+  caffeinate
+  ```
+  Press Ctrl-C to end the command or set a time limit like this
+  ```
+  caffeinate -u -t [number of seconds]
+  ```
 
 - Make your Mac automatically restart after a crash - When your Mac freezes or crashes, often the only resolution is to hold down the power button and wait for it to restart. Use this command to make it restart automatically when it senses a crash.
-```
-sudo systemsetup -setrestartfreeze on
-```
+  ```
+  sudo systemsetup -setrestartfreeze on
+  ```
 
-- Hide non-active apps in your Dock - Dock too crowded, use this to make it show only active apps.
-```
-defaults write com.apple.dock static-only -bool TRUE
-killall Dock
-```
+  - Hide non-active apps in your Dock - Dock too crowded, use this to make it show only active apps.
+  ```
+  defaults write com.apple.dock static-only -bool TRUE
+  killall Dock
+  ```
 
 - Dull hidden apps in the Dock - You can go even further and make the Dock dim apps that aren’t visible on screen.
-```
-defaults write com.apple.Dock showhidden -bool TRUE
-killall Dock
-```
+  ```
+  defaults write com.apple.Dock showhidden -bool TRUE
+  killall Dock
+  ```
 
 - Make holding down a key repeat characters - When you hold down a key on your Mac’s keyboard, it either displays a pop up of additional characters or does nothing. Here’s how to make it repeat the character you tapped, just like it used to do.
-```
-defaults write -g ApplePressAndHoldEnabled -bool FALSE
-```
-To undo the command, use the same command but replace ‘FALSE’ with ‘TRUE’
+  ```
+  defaults write -g ApplePressAndHoldEnabled -bool FALSE
+  ```
+  To undo the command, use the same command but replace ‘FALSE’ with ‘TRUE’
 
-- Hide files and folders from view in the Finder - You can add a "." to the beginning of a file or folder name to hide it (like ".filename"), or use this command.
-```
-chflags hidden [path of folder you want to hide]
-```
+  - Hide files and folders from view in the Finder - You can add a "." to the beginning of a file or folder name to hide it (like ".filename"), or use this command.
+  ```
+  chflags hidden [path of folder you want to hide]
+  ```
 
 - Write ASCII art banners
-```
-banner -w [the width of the banner in pixels] [your message]
-```
+  ```
+  banner -w [the width of the banner in pixels] [your message]
+  ```
 
 - Enable an iOS-like power chime when connected to power - Use this to make your Mac chime like an iPhone when you plug in the charger.
-```
-defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app
-```
+  ```
+  defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app
+  ```
 
 - Check for macOS updates more often - To change the frequency with which your Mac checks for macOS updates from weekly to daily, type:
-```
-defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
-```
+  ```
+  defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+  ```
 
 - List the Contents of a folder - The ‘ls’ command displays the contents of a directory By adding ‘-R’ it expands sub-folders. So to see all the contents of a folder, type:
-```
-ls -R [the path of the directory]
-```
+  ```
+  ls -R [the path of the directory]
+  ```
 
 - Restore a disk image to a volume connected to your Mac - If you have a disk image that you need to create a an actual volume from, use this command:
-```
-sudo asr -restore -noverify -source /[path to diskimage] -target /[Volume you want to restore to]
-```
+  ```
+  sudo asr -restore -noverify -source /[path to diskimage] -target /[Volume you want to restore to]
+  ```
 
 - View any file’s contents - If you’re ever sent a file that won’t open on your Mac, perhaps because you don’t have an app capable of opening it, or because it’s corrupt, you can view its contents in Terminal. For lots of files, like audio and video, the text you see won’t mean much. For others, there may be just enough for you to parse what you need.
-```
-cat [file path]
-```Tip: instead of manually typing the path to the file, you can drag it on to the Terminal window and drop it after the command.
+  ```
+  cat [file path]
+  ```
+  Tip: instead of manually typing the path to the file, you can drag it on to the Terminal window and drop it after the command.
 
 - Change the default screenshot location - You can change the place where screengrabs are saved by typing:
-```
-defaults write com.apple.screencapture location [place where you want screen grabs saved]
-killall SystemUIServer
-```
+  ```
+  defaults write com.apple.screencapture location [place where you want screen grabs saved]
+  killall SystemUIServer
+  ```
 
 - Stop apps from saving to iCloud by default - Some macOS apps like TextEdit and iWork apps save to iCloud by default. You can change that by using:
-```
-defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
-```
-To revert to iCloud, use the same command with the flag set to ‘true’
+  ```
+  defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+  ```
+  To revert to iCloud, use the same command with the flag set to ‘true’
 
 - How to alter file permissions using Terminal - File permissions control which users can access and modify files and folders on your Mac. Mostly they work very well, but occasionally things go awry, like when you copy a file from one user account to another and discover you can’t open in it in your account. There are two commands we can use to change permissions; chmod, which modifies permissions for all users except the file’s owner, and chown which assigns ownership to a specific user. So, to change permissions on a file to allow anyone to access, read, and modify the file, we’d use:
-```
-sudo chmod 777 path-to-file
-```
-Where path-to-file is the path of the file whose permissions you want to modify. Remember, rather than type the file path, you can drag the file onto the Terminal window. To modify the permissions to allow access and reading, but prohibit changing the file, swap 777 for 644. If you want to change permissions on all the files in a folder, drag the folder onto the Terminal window instead of a file, and type -R after the command name. To change ownership of a file to your account, use:
-```
-sudo chown your-short-user-name path-to-file
-```
+  ```
+  sudo chmod 777 path-to-file
+  ```
+  Where path-to-file is the path of the file whose permissions you want to modify. Remember, rather than type the file path, you can drag the file onto the Terminal window. To modify the permissions to allow access and reading, but prohibit changing the file, swap 777 for 644. If you want to change permissions on all the files in a folder, drag the folder onto the Terminal window instead of a file, and type -R after the command name. To change ownership of a file to your account, use:
+  ```
+  sudo chown your-short-user-name path-to-file
+  ```
 
 - Change the default for screen shots on the Mac - By default, screenshots in MacOS are saved as .png files. That’s usually fine, but you can change it if you need to. For example, to change the default to jpeg, type:
-```
-defaults write com.apple.screencapture type JPG
-```
-You can also change to PDF or TIFF using the same command and swapping your chosen format for JPG. To change the default name for screenshots, use:
-```
-defaults write com.apple.screencapture name “the-name-you-chose”; killall SystemUIServer
-```
-Replace the-name-you-chose with whatever you like and screenshots will now be given that name followed by the date and time.
+  ```
+  defaults write com.apple.screencapture type JPG
+  ```
+  You can also change to PDF or TIFF using the same command and swapping your chosen format for JPG. To change the default name for screenshots, use:
+  ```
+  defaults write com.apple.screencapture name “the-name-you-chose”; killall SystemUIServer
+  ```
+  Replace the-name-you-chose with whatever you like and screenshots will now be given that name followed by the date and time.
 
 - Enable text selection in Quick Look - Quick Look is an incredibly useful tool for quickly examining the contents of a file. And while it’s primarily intended for images, it can also be used to read text documents. Sadly, reading is as far as it goes. You can’t select text to copy it, for example. At least, not without the help of a Terminal command. Type this to allow you to select text in Quick Look:
-```
-defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
-```
+  ```
+  defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
+  ```
 
 - Make the Dock slide more quickly using Terminal on the Mac - If you use Show and Hide Dock, you’ll notice that when you drag the mouse pointer onto the bottom of the screen, or whichever edge you keep the Dock, there’s a delay before the Dock slides into view. You can eliminate that delay with these commands:
-```
-defaults write com.apple.dock autohide-delay -float 0
-killall Dock
-```
-The ‘0’ represents the delay before the Dock slides into view, so if you want to reduce it, but not eliminate it altogether, replace the ‘0’ with another value, measured in seconds. To revert to the default, type:
-```
-defaults delete com.apple.dock autohide-delay
-killall Dock
-```
-You can also change the speed at which the Dock slides. Again, it’s done by modifying a delay. So, to make it instant, type:
-```
-defaults write com.apple.dock autohide-time-modifier -float 0
-killall Dock
-```To double the speed, replace the ‘0’ with ‘0.5’ and to keep it the way it was, use ‘1.’
+  ```
+  defaults write com.apple.dock autohide-delay -float 0
+  killall Dock
+  ```
+  The ‘0’ represents the delay before the Dock slides into view, so if you want to reduce it, but not eliminate it altogether, replace the ‘0’ with another value, measured in seconds. To revert to the default, type:
+  ```
+  defaults delete com.apple.dock autohide-delay
+  killall Dock
+  ```
+  You can also change the speed at which the Dock slides. Again, it’s done by modifying a delay. So, to make it instant, type:
+  ```
+  defaults write com.apple.dock autohide-time-modifier -float 0
+  killall Dock
+  ```To double the speed, replace the ‘0’ with ‘0.5’ and to keep it the way it was, use ‘1.’
 
-- Add a message to the login window - Whether it’s to prank other users, provide daily affirmations or inspiration to yourself, or for any other reason, there may be occasions when you want to put a message in the login window in OS X. With the help of Terminal, it’s very easy. Type:
-```
-sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText “Your message here”
-```
-The next time you log out or restart, the message will appear in the log in window. To remove it, use:
-```
-sudo defaults delete /Library/Preferences/com.apple.loginwindow
-```
+  - Add a message to the login window - Whether it’s to prank other users, provide daily affirmations or inspiration to yourself, or for any other reason, there may be occasions when you want to put a message in the login window in OS X. With the help of Terminal, it’s very easy. Type:
+  ```
+  sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText “Your message here”
+  ```
+  The next time you log out or restart, the message will appear in the log in window. To remove it, use:
+  ```
+  sudo defaults delete /Library/Preferences/com.apple.loginwindow
+  ```
 
 -Make your Mac speak - You can make your Mac say anything you want in the currently selected voice. To do that, use the ‘Say’ command, like this:
-```
-Say “whatever you want your Mac to say”
-```
-As soon as you hit Return, your Mac will speak the words you typed.
-
+  ```
+  Say “whatever you want your Mac to say”
+  ```
+  As soon as you hit Return, your Mac will speak the words you typed.
 
 - Rebuild Spotlight - Spotlight is OS X’s search tool and one which is incredibly useful. Occasionally, however, it can become corrupt or stop working properly. The solution is to rebuild it. Guess what? Yes, theres a Terminal command for that too. Use:
-```
-sudo mdutil -E /Volumes/DriveName
-```
-Where ‘DriveName’ is the name of the volume whose index you want to rebuild. In most cases, this will be your startup volume, and unless you’ve changed it, it will be called ‘Macintosh HD.’ Alternatively, if you have volumes mounted on your Mac’s Desktop, you can drag the one you want onto the Terminal window, and ignore ‘/Volumes/DriveName.’
+  ```
+  sudo mdutil -E /Volumes/DriveName
+  ```
+  Where ‘DriveName’ is the name of the volume whose index you want to rebuild. In most cases, this will be your startup volume, and unless you’ve changed it, it will be called ‘Macintosh HD.’ Alternatively, if you have volumes mounted on your Mac’s Desktop, you can drag the one you want onto the Terminal window, and ignore ‘/Volumes/DriveName.’
