@@ -7,7 +7,7 @@ A list of my favorite MacOS apps
 | [Affinity Photo](https://affinity.serif.com/en-us/photo/) | $ | A great alternative to Photoshop, and much cheaper comparatively. |
 | [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) | FREE | Keep your Mac awake for a set time or until an action. |
 | [Apple GarageBand](https://www.apple.com/mac/garageband/) | FREE | Simple but powerful music creation app. |
-| [Apple iMovie](https://www.apple.com/imovie) | FREE | Simple but powerful video editing software. |
+| [Apple iMovie](https://www.apple.com/imovie/index.html) | FREE | Simple but powerful video editing software. |
 | Apple iPhone Mirroring | FREE | Comes pre-installed with MacOS, use your iPhone remotely. |
 | Apple iPad Extend Screen | FREE | Comes pre-installed with MacOS, extend your screen to your iPad. |
 | [Apple Music](https://music.apple.com/) | FREE | Comes pre-installed with MacOS, a great music streaming service. |
