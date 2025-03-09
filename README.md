@@ -98,6 +98,7 @@ These tips were authored by [MacRumors](https://www.macrumors.com/guide/useful-m
 - Hide All Windows - You can hide all of the windows except for the window for the app you're currently using by pressing Option + Command + H.
 - Cycle Between App Windows - If you have multiple windows open for an app like Safari, you can swap between those open windows using Command + the Tilde (~) key.
 - Switch Between Multiple Desktops - If you use multiple desktops, you can swap between them quickly by pressing the Control button and then either the left or the right arrow.
+- Fine tune volume and brightness - Option+Shift+Fn keys (eg. Vol Up/Down, Brightness, Keyboard backlight) will allow finer control over each instead of the preset steps.
 
 ### Managing Files
 
