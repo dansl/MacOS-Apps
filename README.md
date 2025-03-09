@@ -105,6 +105,7 @@ These tips were authored by [MacRumors](https://www.macrumors.com/guide/useful-m
 - Clean Up Your Desktop - For those with macOS Mojave or later, on a messy desktop, just right click and choose "Stacks" to have your Mac automatically organize everything by file type.
 - Instant File Deletion - If you want to delete a file and want to bypass the Trash Can on the Mac that saves files before deleting them, just select a file and press Option + Command + Delete at the same time.
 - Create an Auto Duplicating File - If you want to create a duplicate file when clicking on a specific file, just right click, select "Get Info." and then check the Stationary Pad box. Every time you open that file, it'll actually open a duplicate, which is great for templates and similar file types.
+- Show hidden files - While in Finder, push Cmd+Shift+Period to show/hide invisible files.
 
 ### Screenshots
 
