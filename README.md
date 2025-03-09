@@ -77,6 +77,6 @@ A list of my favorite MacOS apps
 | [Transmission](https://transmissionbt.com) | FREE | BitTorrent client. |
 | [Transmit](https://panic.com/transmit/) | $ | FTP and remote file manager app. |
 | [VLC](https://www.videolan.org/vlc/) | FREE | Media player. |
-| [Windows RDP App](https://www.microsoft.com/en-us/windows/apps) | FREE | Remote Desktop App for non-MacOS devices. |
+| [Windows RDP App](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12) | FREE | Remote Desktop App for non-MacOS devices. |
 | [Xcode](https://developer.apple.com/xcode/) | FREE | Apple's IDE for developing software. |
 | [Zed](https://zed.dev) | FREE | Amazing text editor and development IDE with local AI support and much much more. |
