@@ -298,7 +298,7 @@ Some of these tips were authored by Myself, [MacRumors](https://www.macrumors.co
 
 - Make your Mac speak - You can make your Mac say anything you want in the currently selected voice. To do that, use the ‘Say’ command, like this:
   ```
-  Say “whatever you want your Mac to say”
+  say “whatever you want your Mac to say”
   ```
   As soon as you hit Return, your Mac will speak the words you typed.
 
