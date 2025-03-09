@@ -148,12 +148,11 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
   ```
   man ditto
   ```
-  Now you can see how to use the command, scrolling with your mouse or arrow keys and press 'q' key to quit.
+  Now you can see how to use the ditto command, scrolling with your mouse or arrow keys and press 'q' key to quit.
 
 - Always show hidden files and folders - You can use shortcut Cmd+Shift+Period to show hidden files and folders, but that is only somewhat temporary. To permanently show hidden files and folders.
   ```
-  defaults write com.apple.finder AppleShowAllFiles -bool TRUE
-  killall Finder
+  defaults write com.apple.finder AppleShowAllFiles -bool TRUE; killall Finder
   ```
   Change TRUE to FALSE to disable.
 
@@ -171,8 +170,7 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
 
 - Disable drop shadows on a screenshot - When you use Command-Shift-4 then hit Spacebar to take a screen grab of a window on your Mac, a drop shadow is added to the window. If you’d rather not have it, use this command to take a screen grab without drop shadow.
   ```
-  defaults write com.apple.screencapture disable-shadow -bool TRUE
-  killall SystemUIServer
+  defaults write com.apple.screencapture disable-shadow -bool TRUE; killall SystemUIServer
   ```
 
 - Keep your Mac awake - Over-riding the sleep settings in Energy preferences takes just one command.
@@ -189,16 +187,14 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
   sudo systemsetup -setrestartfreeze on
   ```
 
-  - Hide non-active apps in your Dock - Dock too crowded, use this to make it show only active apps.
+- Hide non-active apps in your Dock - Dock too crowded, use this to make it show only active apps.
   ```
-  defaults write com.apple.dock static-only -bool TRUE
-  killall Dock
+  defaults write com.apple.dock static-only -bool TRUE; killall Dock
   ```
 
 - Dull hidden apps in the Dock - You can go even further and make the Dock dim apps that aren’t visible on screen.
   ```
-  defaults write com.apple.Dock showhidden -bool TRUE
-  killall Dock
+  defaults write com.apple.Dock showhidden -bool TRUE; killall Dock
   ```
 
 - Make holding down a key repeat characters - When you hold down a key on your Mac’s keyboard, it either displays a pop up of additional characters or does nothing. Here’s how to make it repeat the character you tapped, just like it used to do.
@@ -207,7 +203,7 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
   ```
   To undo the command, use the same command but replace ‘FALSE’ with ‘TRUE’
 
-  - Hide files and folders from view in the Finder - You can add a "." to the beginning of a file or folder name to hide it (like ".filename"), or use this command.
+- Hide files and folders from view in the Finder - You can add a "." to the beginning of a file or folder name to hide it (like ".filename"), or use this command.
   ```
   chflags hidden [path of folder you want to hide]
   ```
@@ -245,8 +241,7 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
 
 - Change the default screenshot location - You can change the place where screengrabs are saved by typing:
   ```
-  defaults write com.apple.screencapture location [place where you want screen grabs saved]
-  killall SystemUIServer
+  defaults write com.apple.screencapture location [place where you want screen grabs saved]; killall SystemUIServer
   ```
 
 - Stop apps from saving to iCloud by default - Some macOS apps like TextEdit and iWork apps save to iCloud by default. You can change that by using:
@@ -281,21 +276,19 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
 
 - Make the Dock slide more quickly using Terminal on the Mac - If you use Show and Hide Dock, you’ll notice that when you drag the mouse pointer onto the bottom of the screen, or whichever edge you keep the Dock, there’s a delay before the Dock slides into view. You can eliminate that delay with these commands:
   ```
-  defaults write com.apple.dock autohide-delay -float 0
-  killall Dock
+  defaults write com.apple.dock autohide-delay -float 0; killall Dock
   ```
   The ‘0’ represents the delay before the Dock slides into view, so if you want to reduce it, but not eliminate it altogether, replace the ‘0’ with another value, measured in seconds. To revert to the default, type:
   ```
-  defaults delete com.apple.dock autohide-delay
-  killall Dock
+  defaults delete com.apple.dock autohide-delay; killall Dock
   ```
   You can also change the speed at which the Dock slides. Again, it’s done by modifying a delay. So, to make it instant, type:
   ```
-  defaults write com.apple.dock autohide-time-modifier -float 0
-  killall Dock
-  ```To double the speed, replace the ‘0’ with ‘0.5’ and to keep it the way it was, use ‘1.’
+  defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
+  ```
+  To double the speed, replace the 0 with 0.5 and to keep it the way it was, use 1.
 
-  - Add a message to the login window - Whether it’s to prank other users, provide daily affirmations or inspiration to yourself, or for any other reason, there may be occasions when you want to put a message in the login window in OS X. With the help of Terminal, it’s very easy. Type:
+- Add a message to the login window - Whether it’s to prank other users, provide daily affirmations or inspiration to yourself, or for any other reason, there may be occasions when you want to put a message in the login window in MacOS. With the help of Terminal, it’s very easy. Type:
   ```
   sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText “Your message here”
   ```
@@ -310,7 +303,7 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
   ```
   As soon as you hit Return, your Mac will speak the words you typed.
 
-- Rebuild Spotlight - Spotlight is OS X’s search tool and one which is incredibly useful. Occasionally, however, it can become corrupt or stop working properly. The solution is to rebuild it. Guess what? Yes, theres a Terminal command for that too. Use:
+- Rebuild Spotlight - Spotlight is MacOS’s search tool and one which is incredibly useful. Occasionally, however, it can become corrupt or stop working properly. The solution is to rebuild it. Guess what? Yes, theres a Terminal command for that too. Use:
   ```
   sudo mdutil -E /Volumes/DriveName
   ```
