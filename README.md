@@ -11,6 +11,7 @@ A list of my favorite MacOS apps
 | Apple Password | FREE | Comes pre-installed with MacOS, a great password management tool. |
 | Apple Podcasts | FREE | Comes pre-installed with MacOS, a great podcast streaming service. |
 | Apple Safari | FREE | Comes pre-installed with MacOS, secure web browser. |
+| Apple Terminal | FREE | Comes pre-installed with MacOS, a powerful command-line interface. |
 | Apple Time Machine | FREE | Comes pre-installed with MacOS, a great backup tool. |
 | Apple TV | FREE | Comes pre-installed with MacOS, a great streaming service. |
 | Automator | FREE | Comes pre-installed with MacOS, a powerful tool for automating tasks. |
