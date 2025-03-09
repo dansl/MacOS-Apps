@@ -39,6 +39,7 @@ A list of my favorite MacOS apps
 | [Encrypto](https://macpaw.com/encrypto) | FREE | Drag and Drop encryption app for encrypting files. |
 | [FatDriveSorter](https://fat-drive-sorter.netlify.app) | FREE | For those random times you need to sort files on an old FAT32 storage device. |
 | [FreeCAD](https://www.freecad.org) | FREE | Open-Source 3D CAD software for engineering. |
+| [GBStudio](https://www.gbstudio.dev) | FREE | Open-Source Game Development Studio for Game Boy and Game Boy Color. |
 | [Gifski](https://gif.ski) | FREE | Drag and Drop GIF maker for videos. |
 | [Github Desktop](https://desktop.github.com/download/) | FREE | Manage your Github Repos easily. |
 | [Handbrake](https://handbrake.fr) | FREE | Simple video converter and compressor app. |
