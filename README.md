@@ -61,6 +61,7 @@ A list of my favorite MacOS apps
 | [OpenEmu](https://github.com/Azyzraissi/OpenEmu) | FREE | Multi-platform retro gaming emulator, play almost any retro game on your Mac. |
 | [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) | FREE | 3D model slicer for prepping your models to 3D Print. |
 | [Parallels](https://www.parallels.com) | $ | Virtual Machine app for running Windows or Linux inside MacOS. |
+| [Postman](https://www.postman.com) | $ | API testing and development tool. |
 | [Prompt](https://panic.com/prompt/) | $ | Remote SSH Manager. |
 | [Reeder Classic](https://reederapp.com/classic/) | $ | RSS Reader. |
 | [Apple Remote Desktop](https://apps.apple.com/us/app/apple-remote-desktop/id409907375?mt=12) | $ | Apple Remote Desktop Manager. |
