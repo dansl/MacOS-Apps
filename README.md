@@ -5,6 +5,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | Name | Price | Note |
 | --- | --- | --- |
 | [1Password](https://1password.com) | $ | Great cross-platform password manager app if you have other non-Apple devices, otherwise Apple's Password app works great too. |
+| [Actions](https://github.com/sindresorhus/Actions) | FREE | A collection of new macOS actions for Siri Shortcuts. |
 | [Affinity Photo](https://affinity.serif.com/en-us/photo/) | $ | Image creation and photo editing software. A great alternative to Photoshop, and much cheaper comparatively. |
 | [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) | FREE | Keep your Mac awake for a set time or until an action. |
 | Apple Calendar | FREE | Comes pre-installed with MacOS, a great calendar app. |
