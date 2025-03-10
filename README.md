@@ -201,11 +201,6 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   chflags hidden [path of folder you want to hide]
   ```
 
-- Write ASCII art banners
-  ```
-  banner -w [the width of the banner in pixels] [your message]
-  ```
-
 - Enable an iOS-like power chime when connected to power - Use this to make your Mac chime like an iPhone when you plug in the charger.
   ```
   defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app
