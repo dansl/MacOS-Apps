@@ -1,6 +1,7 @@
-# MacOS-Apps
-A list of my favorite MacOS apps.
+# MacOS Stuff
+Here's a list of all my favorite MacOS apps, tips, and tricks.
 
+## MacOS Apps
 | Name | Price | Note |
 | --- | --- | --- |
 | [1Password](https://1password.com) | $ | Great cross-platform password manager app if you have other non-Apple devices, otherwise Apple's Password app works great too. |
@@ -86,7 +87,7 @@ A list of my favorite MacOS apps.
 
 ## MacOS Tips and Tricks
 
-Some of these tips were authored by Myself and [MacRumors](https://www.macrumors.com/guide/useful-mac-tips/)
+Some of these tips were authored by Myself, [MacRumors](https://www.macrumors.com/guide/useful-mac-tips/), and [Macworld](https://www.macworld.com/article/671711/30-terminal-tips-tricks-and-projects-for-mac.html)
 
 ### Desktop and App Management
 
@@ -141,8 +142,6 @@ Some of these tips were authored by Myself and [MacRumors](https://www.macrumors
 
 ### Terminal Tips
 
-Some of these tips were authored by Myself and [Macworld](https://www.macworld.com/article/671711/30-terminal-tips-tricks-and-projects-for-mac.html)
-
 - Right click a file and hold option key to change "copy" to "copy as path", or drag the file into a Terminal window to input its path.
 
 - In terminal, you can add "man" before any command to read it's manual page. For example.
@@ -159,9 +158,9 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
 
 - Copy files from one folder to another - Option+Dragging and dropping files to copy them from one place to another or try Terminal’s Ditto command instead.
   ```
-  Ditto [original folder] [new folder]
+  ditto [original folder] [new folder]
   ```
-  Where ‘original folder’ and ‘new folder’ are the file paths of the source and destination of the files. To see each file’s name in the Terminal window as it’s copied, type ‘-v’ after Ditto. This is the command for verbose mode.
+  Where ‘original folder’ and ‘new folder’ are the file paths of the source and destination of the files. To see each file’s name in the Terminal window as it’s copied, type ‘-v’ after ditto. This is the command for "verbose mode".
 
 - Download files without your browser - If you’ve got the URL of a file you need to download, but don’t want to download it in Safari, Chrome, or Firefox, Terminal can help. It needs just two commands – one to set Terminal’s location to your Downloads folder (or anywhere else you want to put the downloaded file) and one to download the file. To set the location, use the command below. Change ‘Downloads’ to a different folder if you want to, remembering that if it’s not in the first level of your user directory, you’ll have to type the full path – or drag the folder on to the Terminal window.
   ```
@@ -300,7 +299,7 @@ Some of these tips were authored by Myself and [Macworld](https://www.macworld.c
 
 - Make your Mac speak - You can make your Mac say anything you want in the currently selected voice. To do that, use the ‘Say’ command, like this:
   ```
-  Say “whatever you want your Mac to say”
+  say “whatever you want your Mac to say”
   ```
   As soon as you hit Return, your Mac will speak the words you typed.
 
