@@ -93,54 +93,54 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 
 ### Desktop and App Management
 
-- Activate Spotlight for Searching - To bring up a handy search interface that will let you find files on your Mac, just use Command + Space. Spotlight can do all kinds of things, from locating files to answering basic questions to solving math problems.
-- Swap Between Apps - To switch between your open applications, press Command + Tab. Keep holding down the Command key and then press Tab to cycle through the open apps. Let go when the app you want is highlighted.
-- Close Apps From App Switcher - When you're in the Command + Tab view, press the Q key with command held down to close an open app.
-- Hot Corners - If you don't already use Hot Corners, they're worth checking out. You can set tasks that will happen when your mouse hovers in a specific corner, like launching Mission Control, showing the desktop, and more. Set them up in System Preferences > Mission Control > Hot Corners.
-- Advanced Hot Corners - If you want to use Hot Corners but have found yourself accidentally activating features, hold down the Option key when setting up a Hot Corner. From there, the Hot Corner won't activate unless you're holding down the Option key.
-- Hide a Window - To quickly hide a window on the desktop, just press Command + H. The app will disappear into the background, but you can get it back by clicking on the icon on the dock or using Command + Tab.
-- Hide All Windows - You can hide all of the windows except for the window for the app you're currently using by pressing Option + Command + H.
-- Cycle Between App Windows - If you have multiple windows open for an app like Safari, you can swap between those open windows using Command + the Tilde (~) key.
-- Switch Between Multiple Desktops - If you use multiple desktops, you can swap between them quickly by pressing the Control button and then either the left or the right arrow.
+- **Activate Spotlight for Searching** - To bring up a handy search interface that will let you find files on your Mac, just use Command + Space. Spotlight can do all kinds of things, from locating files to answering basic questions to solving math problems.
+- **Swap Between Apps** - To switch between your open applications, press Command + Tab. Keep holding down the Command key and then press Tab to cycle through the open apps. Let go when the app you want is highlighted.
+- **Close Apps From App Switcher** - When you're in the Command + Tab view, press the Q key with command held down to close an open app.
+- **Hot Corners** - If you don't already use Hot Corners, they're worth checking out. You can set tasks that will happen when your mouse hovers in a specific corner, like launching Mission Control, showing the desktop, and more. Set them up in System Preferences > Mission Control > Hot Corners.
+- **Advanced Hot Corners** - If you want to use Hot Corners but have found yourself accidentally activating features, hold down the Option key when setting up a Hot Corner. From there, the Hot Corner won't activate unless you're holding down the Option key.
+- **Hide a Window** - To quickly hide a window on the desktop, just press Command + H. The app will disappear into the background, but you can get it back by clicking on the icon on the dock or using Command + Tab.
+- **Hide All Windows** - You can hide all of the windows except for the window for the app you're currently using by pressing Option + Command + H.
+- **Cycle Between App Windows** - If you have multiple windows open for an app like Safari, you can swap between those open windows using Command + the Tilde (~) key.
+- **Switch Between Multiple Desktops** - If you use multiple desktops, you can swap between them quickly by pressing the Control button and then either the left or the right arrow.
 
 ### Managing Files
 
-- Quickly Open Folders - To open up a folder in Finder or on your desktop, hold Command and press the down arrow key. To go back, just hold Command and press the up arrow key.
-- Clean Up Your Desktop - For those with macOS Mojave or later, on a messy desktop, just right click and choose "Stacks" to have your Mac automatically organize everything by file type.
-- Instant File Deletion - If you want to delete a file and want to bypass the Trash Can on the Mac that saves files before deleting them, just select a file and press Option + Command + Delete at the same time.
-- Create an Auto Duplicating File - If you want to create a duplicate file when clicking on a specific file, just right click, select "Get Info." and then check the Stationary Pad box. Every time you open that file, it'll actually open a duplicate, which is great for templates and similar file types.
-- Show hidden files - While in Finder, push Cmd+Shift+Period to show/hide invisible files.
+- **Quickly Open Folders** - To open up a folder in Finder or on your desktop, hold Command and press the down arrow key. To go back, just hold Command and press the up arrow key.
+- **Clean Up Your Desktop** - For those with macOS Mojave or later, on a messy desktop, just right click and choose "Stacks" to have your Mac automatically organize everything by file type.
+- **Instant File Deletion** - If you want to delete a file and want to bypass the Trash Can on the Mac that saves files before deleting them, just select a file and press Option + Command + Delete at the same time.
+- **Create an Auto Duplicating File** - If you want to create a duplicate file when clicking on a specific file, just right click, select "Get Info." and then check the Stationary Pad box. Every time you open that file, it'll actually open a duplicate, which is great for templates and similar file types.
+- **Show hidden files** - While in Finder, push Cmd+Shift+Period to show/hide invisible files.
 
 ### Screenshots
 
-- Video Screenshots - Shift + Command + 3 takes a screenshot, Shift + Command + 4 lets you select an area of the screen to screenshot, but Shift + Command + 5, a lesser known option, brings up an interface that lets you record your screen or a portion of your screen.
-- Cleaner Screenshots - When using Shift + Command + 4 to select an area of the screen, if you press spacebar, the icon turns to a camera. From there, you can click on any open window to get a screenshot of just that window or interface element like dock or menu bar.
+- **Video Screenshots** - Shift + Command + 3 takes a screenshot, Shift + Command + 4 lets you select an area of the screen to screenshot, but Shift + Command + 5, a lesser known option, brings up an interface that lets you record your screen or a portion of your screen.
+- **Cleaner Screenshots** - When using Shift + Command + 4 to select an area of the screen, if you press spacebar, the icon turns to a camera. From there, you can click on any open window to get a screenshot of just that window or interface element like dock or menu bar.
 
 ### Safari
 
-- Safari Picture-in-Picture (YouTube) - You can watch a video in Safari while you do other things. To do so with YouTube, just right click twice on a video that's playing to bring up a menu offering the picture-in-picture feature.
-- Safari Picture-in-Picture Pt. 2 - If the right clicking method doesn't work to pop out a video or you're not watching YouTube, there's another method. With a video playing, look for the audio icon in the Safari toolbar, right click it, and it should bring up a picture-in-picture option.
-- Easier Link Copying - If you want to copy the current URL in Safari, press Command + L to highlight the URL bar and then press Command + C to copy. It's quicker than using a mouse.
+- **Safari Picture-in-Picture (YouTube)** - You can watch a video in Safari while you do other things. To do so with YouTube, just right click twice on a video that's playing to bring up a menu offering the picture-in-picture feature.
+- **Safari Picture-in-Picture Pt. 2** - If the right clicking method doesn't work to pop out a video or you're not watching YouTube, there's another method. With a video playing, look for the audio icon in the Safari toolbar, right click it, and it should bring up a picture-in-picture option.
+- **Easier Link Copying** - If you want to copy the current URL in Safari, press Command + L to highlight the URL bar and then press Command + C to copy. It's quicker than using a mouse.
 
 ### Force Touch Trackpad
 
-- Quick Looks - When using a Mac with a Force Touch Trackpad, if you click and hold on something like a website link or a YouTube video, you can see a little preview of the content to see what it is without having to leave the current page you're on.
-- Dictionary - If you see a word that you're not familiar with, highlight it and press down on it with the Force Touch Trackpad to get a dictionary definition.
-- Rename Folders and Files - If you Force Touch on a folder or file name, you can quickly rename it. Force Touch on a folder or file icon and you can see a preview of the file.
+- **Quick Looks** - When using a Mac with a Force Touch Trackpad, if you click and hold on something like a website link or a YouTube video, you can see a little preview of the content to see what it is without having to leave the current page you're on.
+- **Dictionary** - If you see a word that you're not familiar with, highlight it and press down on it with the Force Touch Trackpad to get a dictionary definition.
+- **Rename Folders and Files** - If you Force Touch on a folder or file name, you can quickly rename it. Force Touch on a folder or file icon and you can see a preview of the file.
 
 ### Apple Watch and Mac
 
-- Unlocking With Apple Watch - If you have an Apple Watch, you can use it to unlock your Mac, which is a super useful feature for those who don't know about it. To set it up, open System Preferences > Security & Privacy and then toggle on Unlock Mac with Apple Watch.
-- Apple Watch Password Authentication - For those with macOS Catalina and an Apple Watch, the Apple Watch can also be used as an alternative to a password so you don't need to type in passwords frequently.
+- **Unlocking With Apple Watch** - If you have an Apple Watch, you can use it to unlock your Mac, which is a super useful feature for those who don't know about it. To set it up, open System Preferences > Security & Privacy and then toggle on Unlock Mac with Apple Watch.
+- **Apple Watch Password Authentication** - For those with macOS Catalina and an Apple Watch, the Apple Watch can also be used as an alternative to a password so you don't need to type in passwords frequently.
 
 ### Notification Center
 
-- Activate DND Quickly - If you hold the Option key and click on the Notification Center icon in the top right corner of your Mac's menu bar, you can activate Do Not Disturb.
+- **Activate DND Quickly** - If you hold the Option key and click on the Notification Center icon in the top right corner of your Mac's menu bar, you can activate Do Not Disturb.
 
 ### Keyboard Tricks
 
-- Alternate Mouse Control - There's an option to control your mouse cursor with your keyboard, and it can be enabled in Accessibility. Open up the Accessibility settings and under Pointer Control, choose the Alternate Control Methods tab. From there, turn on Enable Mouse Keys and select toggle to turn on Mouse Keys when Option is pressed five times. When you press Option x5, Mouse Keys turn on and you can use the keyboard to move the mouse.
-- Quick Access to Function Key Settings - When pressing one of the function keys to activate Mission Control, Brightness, Media playback, and more, if you hold down Option when you press, you can access the corresponding Settings options inside System Preferences for those keys. Note: This doesn't work on Touch Bar Macs.
+- **Alternate Mouse Control** - There's an option to control your mouse cursor with your keyboard, and it can be enabled in Accessibility. Open up the Accessibility settings and under Pointer Control, choose the Alternate Control Methods tab. From there, turn on Enable Mouse Keys and select toggle to turn on Mouse Keys when Option is pressed five times. When you press Option x5, Mouse Keys turn on and you can use the keyboard to move the mouse.
+- **Quick Access to Function Key Settings** - When pressing one of the function keys to activate Mission Control, Brightness, Media playback, and more, if you hold down Option when you press, you can access the corresponding Settings options inside System Preferences for those keys. Note: This doesn't work on Touch Bar Macs.
 
 ### Terminal Tips
 
