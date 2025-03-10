@@ -229,7 +229,6 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   ```
   cat [file path]
   ```
-  Tip: instead of manually typing the path to the file, you can drag it on to the Terminal window and drop it after the command.
 
 - Change the default screenshot location - You can change the place where screengrabs are saved by typing:
   ```
