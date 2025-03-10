@@ -211,9 +211,13 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
   ```
 
-- List the Contents of a folder - The ‘ls’ command displays the contents of a directory By adding ‘-R’ it expands sub-folders. So to see all the contents of a folder, type:
+- List the Contents of a folder - The ‘ls’ command displays the contents of a directory, by adding ‘-R’ it expands sub-folders. So to see all the contents of a folder, type:
   ```
   ls -R [the path of the directory]
+  ```
+  Adding '-lr' will also show the file size and permissions.
+  ```
+  ls -lr [the path of the directory]
   ```
 
 - Restore a disk image to a volume connected to your Mac - If you have a disk image that you need to create a an actual volume from, use this command:
