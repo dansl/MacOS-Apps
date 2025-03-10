@@ -67,6 +67,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) | FREE | 3D model slicer for prepping your models to 3D Print. |
 | [Parallels](https://www.parallels.com) | $ | Virtual Machine app for running Windows or Linux inside MacOS. |
 | [Pixelmator](https://www.pixelmator.com/pro/) | $ | Image creation and photo editing software. A great alternative to Photoshop, and much cheaper comparatively. |
+| [Plex](https://www.plex.tv) | FREE | Media server that will stream your media to any device. |
 | [Postman](https://www.postman.com) | FREE | API testing and development tool. |
 | [Prompt](https://panic.com/prompt/) | $ | Remote SSH Manager. |
 | [Reaper](https://www.reaper.fm) | FREE | Powerful audio editing tool. |
