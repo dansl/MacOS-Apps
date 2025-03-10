@@ -87,8 +87,6 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 
 ## MacOS Tips and Tricks
 
-Some of these tips were authored by Myself, [MacRumors](https://www.macrumors.com/guide/useful-mac-tips/), and [Macworld](https://www.macworld.com/article/671711/30-terminal-tips-tricks-and-projects-for-mac.html)
-
 ### Desktop and App Management
 
 - Activate Spotlight for Searching - To bring up a handy search interface that will let you find files on your Mac, just use Command + Space. Spotlight can do all kinds of things, from locating files to answering basic questions to solving math problems.
@@ -308,3 +306,103 @@ Some of these tips were authored by Myself, [MacRumors](https://www.macrumors.co
   sudo mdutil -E /Volumes/DriveName
   ```
   Where ‘DriveName’ is the name of the volume whose index you want to rebuild. In most cases, this will be your startup volume, and unless you’ve changed it, it will be called ‘Macintosh HD.’ Alternatively, if you have volumes mounted on your Mac’s Desktop, you can drag the one you want onto the Terminal window, and ignore ‘/Volumes/DriveName.’
+
+- Easily search and use the commands that you had used in the past - Imagine a situation where you used a long command couple of minutes/hours ago and you have to use it again. The problem is that you cannot remember the exact command anymore. Reverse search is your savior here. You can search for the command in the history using a search term. Just use the keys ctrl+r to initiate reverse search and type some part of the command. It will look up into the history and will show you the commands that match the search term.
+  '''
+  ctrl+r search_term
+  '''
+  By default, it will show just one result. To see more results matching your search term, you will have to use ctrl+r again and again. To quit reverse search, just use Ctrl+C.
+
+- Unfreeze your terminal from accidental Ctrl+S - You probably are habitual of using Ctrl+S for saving. But if you use that in terminal, you’ll have a frozen terminal. Don’t worry, you don’t have to close the terminal, not anymore. Just use Ctrl+Q and you can use the terminal again.
+  ```
+  ctrl+Q
+  ```
+
+- Move to the beginning or end of lines - Suppose you are typing a long command and midway you realize that you had to change something at the beginning. You would use several left arrow keystrokes to move to the start of the line. And similarly for going to the end of the line. You can use Home and End keys here of course but alternatively, you can use Ctrl+A to go to the beginning of the line and Ctrl+E to go to the end.
+
+- Delete the entire line from cursor position - So many people either do not know about it or hardly use it. In the terminal, if you press Ctrl+U, it deletes everything from your current cursor position to the beginning of the line. Similarly, if you press Ctrl+K, it deletes everything from your cursor position to the end of the line. Possibly made a mistake in typing the password? Instead of using the backspace key all the way, simply use Ctrl+U and retype the password. You can discover plenty of other uses for these shortcuts.
+
+- Reading a log file in real time - In situations where you need to analyze the logs while the application is running, you can use the tail command with -f option.
+  ```
+  tail -f path_to_Log
+  ```
+  You can also use the regular grep options to display only those lines that are meaningful to you:
+  ```
+  tail -f path_to_log | grep search_term
+  ```
+  You can also use the option F here. This will keep the tail running even if the log file is deleted. So if the log file is created again, tail will continue logging.
+
+- Reading compressed logs without extracting - Server logs are usually gzip compressed to save disk space. It creates an issue for the developer or sysadmin analyzing the logs. You might have to scp it to your local and then extract it to access the files because, at times, you don’t have write permission to extract the logs. Thankfully, z commands save you in such situations. z commands provide alternatives of the regular commands that you use to deal with log files such as less, cat, grep etc. So you get
+  ```
+  zless, zcat, zgrep, etc.
+  ```
+
+- Use less to read files - To see the contents of a file, cat is not the best option especially if it is a big file. cat command will display the entire file on your screen. You can use Vi, Vim or other terminal-based text editors but if you just want to read a file, less command is a far better choice.
+  ```
+  less path_to_file
+  ```
+
+- Reuse the last item from the previous command with !$ - Using the argument of the previous command comes in handy in many situations. Say you have to create a directory and then go into the newly created directory. There you can use the !$ options.
+  ```
+  ls Tools/
+  cd !$
+  ```
+  A better way to do the same is to use alt+period. You can use period a number of times to shuffle between the options of the last commands.
+
+- Reuse the previous command in present command with !! - You can call the entire previous command with !!. This is particularly useful when you have to run a command and realize that it needs root privileges.
+  ```
+  apt install vlc
+  sudo !!
+  ```
+  A quick sudo !! saves plenty of keystrokes here.
+
+- Using alias to fix typos - You probably already know what is an alias command. What you can do is, to use them to fix typos. For example, you might often mistype grep as gerp. If you put an alias in your bashrc in this fashion:
+  ```
+  alias gerp=grep
+  ```
+  This way you won’t have to retype the command again.
+
+- Kill a running command/process - This one is perhaps way too obvious. If there is a command running in the foreground and you want to exit it, you can press Ctrl+C to stop that running command.
+
+- Using yes command for commands or scripts that need interactive response - If some commands or scripts need user interaction and you know that you have to enter Y each time it requires input, you can use the Yes command. Just use it in the below fashion:
+  ```
+  yes | command_or_script
+  ```
+
+- Find if there are files containing a particular text - There are multiple ways to search and find in command line. But in the case when you just want to see if there are files that contain a particular text, you can use this command:
+  ```
+  grep -Pri Search_Term path_to_directory
+  ```
+
+- Using help with any command - Almost all command and command line tools come with a help page that shows how to use the command. Often using help will tell you the primary usage of the tool/command.
+  ```
+  command_tool --help
+  ```
+
+- Running multiple commands in one command - Suppose you need to execute several commands one after the other. Are you waiting for the first command to complete and then running the next one? You can use the ";" separator for this. This way, you can run multiple commands on the same line:
+  ```
+  command_1; command_2; command_3
+  ```
+
+- Run multiple commands in one command only if the previous command was successful - The && ensures that the following command will only be executed when the previous command was successful:
+  ```
+  command_1 && command_2
+  ```
+
+- Show the current directory you are in.
+  ```
+  pwd
+  ```
+
+- Repeating a command until it successfully completes - To run a command until it completes successfully use the command's return code in this construct:
+  ```
+  while! [command]; do sleep 1; done
+  ```
+
+- Cleaning the Console - The clear command clears the terminal screen. The keyboard shortcut Ctrl + L allows you to achieve the same thing faster.
+
+- Keep Your Program Running in the Background - If you run the program in a terminal, it will be killed as soon as you end your terminal session. To prevent this and keep the program running, use the nohup command - it means "don't hang". For example, to transfer files to and from the server using scp and be sure that the transfer will continue even if you accidentally close the terminal window, use this command:
+  ```
+  nohup scp very-big-file.mkv [email protected]:~/very-big-file.mkv
+  ```
+  nohup also creates a file called nohup.out to store the output of the command.
