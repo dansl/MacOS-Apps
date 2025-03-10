@@ -19,6 +19,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | Apple News | FREE | Comes pre-installed with MacOS, a great news aggregator. |
 | Apple Password | FREE | Comes pre-installed with MacOS, a great password management tool. |
 | Apple Podcasts | FREE | Comes pre-installed with MacOS, a great podcast streaming service. |
+| [Apple Remote Desktop](https://apps.apple.com/us/app/apple-remote-desktop/id409907375?mt=12) | $ | Apple Remote Desktop Manager. |
 | Apple Safari | FREE | Comes pre-installed with MacOS, secure web browser. |
 | Apple Shortcuts | FREE | Comes pre-installed with MacOS, a powerful tool for automating tasks. |
 | Apple Terminal | FREE | Comes pre-installed with MacOS, a powerful command-line interface. |
@@ -72,7 +73,6 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | [Prompt](https://panic.com/prompt/) | $ | Remote SSH Manager. |
 | [Reaper](https://www.reaper.fm) | FREE | Powerful audio editing tool. |
 | [Reeder Classic](https://reederapp.com/classic/) | $ | RSS Reader. |
-| [Apple Remote Desktop](https://apps.apple.com/us/app/apple-remote-desktop/id409907375?mt=12) | $ | Apple Remote Desktop Manager. |
 | [Reins](https://github.com/ibrahimcetin/reins) | FREE | A chat-like UI for chatting with local AI LLMs via Ollama. |
 | [Shapr3D](https://www.shapr3d.com) | FREE | 3D modeling and engineering CAD app. |
 | [Signal](https://signal.org) | FREE | Secure messaging app. |
