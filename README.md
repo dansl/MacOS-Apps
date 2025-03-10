@@ -166,7 +166,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   curl -O [the URL of the file]
   ```
 
-- Disable drop shadows on a screenshot - When you use Command-Shift-4 then hit Spacebar to take a screen grab of a window on your Mac, a drop shadow is added to the window. If you’d rather not have it, use this command to take a screen grab without drop shadow.
+- Disable drop shadows on a screenshot - When you use Command-Shift-4 then hit Spacebar to take a screen grab of a window on your Mac, a drop shadow is added to the window. To take a screen grab without drop shadow.
   ```
   defaults write com.apple.screencapture disable-shadow -bool TRUE; killall SystemUIServer
   ```
@@ -185,7 +185,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   defaults write com.apple.dock static-only -bool TRUE; killall Dock
   ```
 
-- Dull hidden apps in the Dock - You can go even further and make the Dock dim apps that aren’t visible on screen.
+- Dull hidden apps in the Dock - Make the Dock dim apps that aren’t visible on screen.
   ```
   defaults write com.apple.Dock showhidden -bool TRUE; killall Dock
   ```
@@ -220,12 +220,12 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   ls -lr [the path of the directory]
   ```
 
-- Restore a disk image to a volume connected to your Mac - If you have a disk image that you need to create a an actual volume from, use this command:
+- Restore a disk image to a volume connected to your Mac - If you have a disk image that you need to create an actual volume from, use this command:
   ```
   sudo asr -restore -noverify -source /[path to diskimage] -target /[Volume you want to restore to]
   ```
 
-- View any file’s contents - If you’re ever sent a file that won’t open, perhaps because you don’t have an app capable of opening it, or because it’s corrupt, you can view its contents in Terminal. For lots of files, like audio and video, the text you see won’t mean much. For others, there may be just enough for you to parse what you need.
+- View any file’s contents - For lots of files, like audio and video, the text you see won’t mean much. For others, there may be just enough for you to parse what you need.
   ```
   cat [file path]
   ```
@@ -241,11 +241,11 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   ```
   To revert to iCloud, use the same command with the flag set to ‘true’
 
-- How to alter file permissions using Terminal - File permissions control which users can access and modify files and folders. Mostly they work very well, but occasionally things go awry, like when you copy a file from one user account to another and discover you can’t open in it in your account. There are two commands we can use to change permissions; chmod, which modifies permissions for all users except the file’s owner, and chown which assigns ownership to a specific user. So, to change permissions on a file to allow anyone to access, read, and modify the file, we’d use:
+- How to alter file permissions using Terminal - File permissions control which users can access and modify files and folders. When you copy a file from one user account to another and discover you can’t open in it in your account. Use chmod, which modifies permissions for all users except the file’s owner, and chown which assigns ownership to a specific user.
   ```
   sudo chmod 777 path-to-file
   ```
-  Where path-to-file is the path of the file whose permissions you want to modify. Remember, rather than type the file path, you can drag the file onto the Terminal window. To modify the permissions to allow access and reading, but prohibit changing the file, swap 777 for 644. If you want to change permissions on all the files in a folder, drag the folder onto the Terminal window instead of a file, and type -R after the command name. To change ownership of a file to your account, use:
+  To modify the permissions to allow access and reading, but prohibit editing the file, swap 777 for 644. If you want to change permissions on all the files in a folder, type -R after the command name. To change ownership of a file to your account, use:
   ```
   sudo chown your-short-user-name path-to-file
   ```
@@ -260,26 +260,26 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   ```
   Replace the-name-you-chose with whatever you like and screenshots will now be given that name followed by the date and time.
 
-- Enable text selection in Quick Look - Quick Look is an incredibly useful tool for quickly examining the contents of a file. And while it’s primarily intended for images, it can also be used to read text documents. Sadly, reading is as far as it goes. You can’t select text to copy it, for example. At least, not without the help of a Terminal command. Type this to allow you to select text in Quick Look:
+- Enable text selection in Quick Look - Quick Look is an incredibly useful tool for quickly examining the contents of a file. Use this command to allow you to select text in Quick Look:
   ```
   defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
   ```
 
-- Make the Dock slide more quickly using Terminal on the Mac - If you use Show and Hide Dock, you’ll notice that when you drag the mouse pointer onto the bottom of the screen, or whichever edge you keep the Dock, there’s a delay before the Dock slides into view. You can eliminate that delay with these commands:
+- Make the Dock show more quickly - If you use Show and Hide dock, eliminate the show delay with these commands:
   ```
   defaults write com.apple.dock autohide-delay -float 0; killall Dock
   ```
-  The ‘0’ represents the delay before the Dock slides into view, so if you want to reduce it, but not eliminate it altogether, replace the ‘0’ with another value, measured in seconds. To revert to the default, type:
+  The ‘0’ represents the delay in seconds before the Dock slides into view. To revert to the default, type:
   ```
   defaults delete com.apple.dock autohide-delay; killall Dock
   ```
-  You can also change the speed at which the Dock slides. Again, it’s done by modifying a delay. So, to make it instant, type:
+  You can also change the speed at which the Dock slides in. Again, it’s done by modifying a delay. So, to make it instant, type:
   ```
   defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
   ```
   To double the speed, replace the 0 with 0.5 and to keep it the way it was, use 1.
 
-- Add a message to the login window - Whether it’s to prank other users, provide daily affirmations or inspiration to yourself, or for any other reason, there may be occasions when you want to put a message in the login window in MacOS. With the help of Terminal, it’s very easy. Type:
+- Add a message to the login window.
   ```
   sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText “Your message here”
   ```
@@ -294,11 +294,11 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   ```
   As soon as you hit Return, your Mac will speak the words you typed.
 
-- Rebuild Spotlight - Spotlight is MacOS’s search tool and one which is incredibly useful. Occasionally, however, it can become corrupt or stop working properly. The solution is to rebuild it. Guess what? Yes, theres a Terminal command for that too. Use:
+- Rebuild Spotlight - Spotlight is MacOS’s search tool and one which is incredibly useful. Occasionally, however, it can become corrupt or stop working properly. The solution is to rebuild it.
   ```
   sudo mdutil -E /Volumes/DriveName
   ```
-  Where ‘DriveName’ is the name of the volume whose index you want to rebuild. In most cases, this will be your startup volume, and unless you’ve changed it, it will be called ‘Macintosh HD.’ Alternatively, if you have volumes mounted on your Mac’s Desktop, you can drag the one you want onto the Terminal window, and ignore ‘/Volumes/DriveName.’
+  Where ‘DriveName’ is the name of the volume whose index you want to rebuild.
 
 - Search and use the old commands - You can search for a command in the history using any search term. Just use the keys ctrl+r to initiate reverse search and type some part of the command.
   ```
@@ -306,7 +306,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   ```
   By default, it will show just one result. To see more results matching your search term, hit ctrl+r again and again. To quit reverse search, use Ctrl+C.
 
-- Unfreeze your Linux terminal - If you hit Ctrl+S, your terminal will freeze. Just use Ctrl+Q and you can use the terminal again.
+- Unfreeze your terminal - If you hit Ctrl+S, your terminal will freeze. Just use Ctrl+Q and you can use the terminal again.
   ```
   ctrl+Q
 
@@ -359,7 +359,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   yes | command_or_script
   ```
 
-- Find if there are files containing a particular text - There are multiple ways to search and find in Linux command line. But in the case when you just want to see if there are files that contain a particular text, you can use this command:
+- Find if there are files containing a particular text - There are multiple ways to search and find in command line. But in the case when you just want to see if there are files that contain a particular text, you can use this command:
   ```
   grep -Pri Search_Term path_to_directory
   ```
