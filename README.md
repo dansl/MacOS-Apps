@@ -26,6 +26,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | Apple TV | FREE | Comes pre-installed with MacOS, a great streaming service. |
 | Automator | FREE | Comes pre-installed with MacOS, a powerful tool for automating tasks. |
 | [balenaEtcher](https://etcher.balena.io) | FREE | Flash images to external storage devices. Great for flashing SDcards. |
+| [Berty](https://berty.tech) | FREE | Open-source decentralized messaging app with end-to-end encryption. |
 | [BetterDisplay](https://github.com/waydabber/BetterDisplay) | $ | Support and control non-Apple displays. |
 | [Blender](https://www.blender.org) | FREE | 3D modeling applicaiton. |
 | [CleanMyMac](https://cleanmymac.com) | $ | Storage cleaner and Virus Scanner. Can free up lots of space and keep you safe. |
