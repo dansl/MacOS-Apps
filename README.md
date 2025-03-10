@@ -335,7 +335,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   ls Tools/
   cd !$
   ```
-  This would use "Tools/" in place of !$. A better way to do the same is to use alt+period. You can use period a number of times to shuffle between the options of the last commands.
+  This would use "Tools/" in place of !$.
 
 - Reuse the previous command in present command with !! - You can call the entire previous command with !!. This is particularly useful when you have to run a command and realize that it needs root privileges.
   ```
