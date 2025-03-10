@@ -180,11 +180,6 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   caffeinate -u -t [number of seconds]
   ```
 
-- Make your Mac automatically restart after a crash - When your Mac freezes or crashes, often the only resolution is to hold down the power button and wait for it to restart. Use this command to make it restart automatically when it senses a crash.
-  ```
-  sudo systemsetup -setrestartfreeze on
-  ```
-
 - Hide non-active apps in your Dock - Dock too crowded, use this to make it show only active apps.
   ```
   defaults write com.apple.dock static-only -bool TRUE; killall Dock
