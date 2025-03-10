@@ -306,10 +306,6 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   ```
   By default, it will show just one result. To see more results matching your search term, hit ctrl+r again and again. To quit reverse search, use Ctrl+C.
 
-- Unfreeze your terminal - If you hit Ctrl+S, your terminal will freeze. Just use Ctrl+Q and you can use the terminal again.
-  ```
-  ctrl+Q
-
 - Move to the beginning or end of lines - You can use Home and End keys here of course but alternatively, you can use Ctrl+A to go to the beginning of the line and Ctrl+E to go to the end.
 
 - Delete the entire line from cursor position - You press Ctrl+U, it deletes everything from your current cursor position to the beginning of the line. Similarly, if you press Ctrl+K, it deletes everything from your cursor position to the end of the line.
