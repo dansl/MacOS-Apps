@@ -308,9 +308,9 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   Where ‘DriveName’ is the name of the volume whose index you want to rebuild. In most cases, this will be your startup volume, and unless you’ve changed it, it will be called ‘Macintosh HD.’ Alternatively, if you have volumes mounted on your Mac’s Desktop, you can drag the one you want onto the Terminal window, and ignore ‘/Volumes/DriveName.’
 
 - Easily search and use the commands that you had used in the past - Imagine a situation where you used a long command couple of minutes/hours ago and you have to use it again. The problem is that you cannot remember the exact command anymore. Reverse search is your savior here. You can search for the command in the history using a search term. Just use the keys ctrl+r to initiate reverse search and type some part of the command. It will look up into the history and will show you the commands that match the search term.
-  '''
+  ```
   ctrl+r search_term
-  '''
+  ```
   By default, it will show just one result. To see more results matching your search term, you will have to use ctrl+r again and again. To quit reverse search, just use Ctrl+C.
 
 - Unfreeze your terminal from accidental Ctrl+S - You probably are habitual of using Ctrl+S for saving. But if you use that in terminal, you’ll have a frozen terminal. Don’t worry, you don’t have to close the terminal, not anymore. Just use Ctrl+Q and you can use the terminal again.
