@@ -45,6 +45,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | [GBStudio](https://www.gbstudio.dev) | FREE | Open-Source Game Development Studio for Game Boy and Game Boy Color. |
 | [Gifski](https://gif.ski) | FREE | Drag and Drop GIF maker for videos. |
 | [Github Desktop](https://desktop.github.com/download/) | FREE | Manage your Github Repos easily. |
+| [Goodnotes](https://www.goodnotes.com/) | FREE | Note-taking app with advanced features. |
 | [Handbrake](https://handbrake.fr) | FREE | Simple video converter and compressor app. |
 | [Heroic](https://heroicgameslauncher.com) | FREE | Open Source Epic, GOG and Amazon Prime Games launcher. |
 | [HiddenBar](https://github.com/dwarvesf/hidden) | FREE | Lets you hide menu bar items to give your Mac a cleaner look. |
