@@ -389,6 +389,6 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 
 - Keep Your Program Running in the Background - If you run the program in a terminal, it will be killed as soon as you end your terminal session. To prevent this and keep the program running, use the nohup command. Example: Transfer files to and from the server using scp and be sure that the transfer will continue even if you accidentally close the terminal window, use this command:
   ```
-  nohup scp very-big-file.mkv [email protected]:~/very-big-file.mkv
+  nohup scp very-big-file.mkv user@server-ip:~/very-big-file.mov
   ```
   nohup also creates a file called nohup.out to store the output of the command.
