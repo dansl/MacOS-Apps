@@ -396,3 +396,10 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
   nohup scp very-big-file.mov user@server-ip:~/very-big-file.mov
   ```
   nohup also creates a file called nohup.out to store the output of the command.
+
+Thanks for reading. Follow me for more!
+- [Website](https://dansl.net)
+
+- [Bluesky](https://bsky.app/profile/dansnull.bsky.social)
+
+- [Mastodon](https://mastodon.social/@DansNull)
