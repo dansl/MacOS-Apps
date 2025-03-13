@@ -62,6 +62,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | [Meeter](https://apps.apple.com/us/app/meeter-for-zoom-teams-co/id1510445899) | FREE | Helpful app to view your upcoming online meetings via the Mac top bar. |
 | [Mela](https://mela.recipes) | FREE | Manage all your food recipies. |
 | [Motrix](https://motrix.app) | FREE | Download manager that will pull downloads off servers faster by using multiple streams. |
+| [MusicBrainz Picard](https://picard.musicbrainz.org) | FREE | Music collection metadata manager. |
 | [NewFile](https://github.com/dansl/finder-new-file) | FREE | Simple app that will generate a blank file |
 | [Ollama](https://ollama.com) | FREE | Run AI LLMs locally on your Mac. |
 | [OpenEmu](https://github.com/Azyzraissi/OpenEmu) | FREE | Multi-platform retro gaming emulator, play almost any retro game on your Mac. |
