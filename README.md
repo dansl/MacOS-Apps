@@ -401,7 +401,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 
 ### Terminal Apps and Plugins
 
-These are ways to make your terminal more efficient and more enjoyable! Highly recommend getting [Homebrew](https://brew.sh/) setup so you can install these plugins easily.
+These are ways to make your terminal more efficient and more enjoyable! Highly recommend getting [Homebrew](https://brew.sh/) setup so you can install these more easily.
 
 - [bat](https://github.com/sharkdp/bat) - bat is a replacement for cat command that displays files with syntax highlighting.
 - [btop](https://github.com/aristocratos/btop) - btop is a replacement for top command that displays system resources and running tasks information with syntax highlighting.
