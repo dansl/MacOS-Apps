@@ -134,9 +134,10 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 - **Unlocking With Apple Watch** - If you have an Apple Watch, you can use it to unlock your Mac, which is a super useful feature for those who don't know about it. To set it up, open System Preferences > Security & Privacy and then toggle on Unlock Mac with Apple Watch.
 - **Apple Watch Password Authentication** - For those with macOS Catalina and an Apple Watch, the Apple Watch can also be used as an alternative to a password so you don't need to type in passwords frequently.
 
-### Notification Center
+### Notification Center and Top Bar
 
 - **Activate DND Quickly** - If you hold the Option key and click on the Notification Center icon in the top right corner of your Mac's menu bar, you can activate Do Not Disturb.
+- **Move or Remove an item from the top bar** - Hold the Command key and click and drag on an item to move it. To remove the item, drag it down off the top bar. Some items may not be removable. See "System Settings > Control Center" to manage more settings for the top bar.
 
 ### Keyboard Tricks
 
