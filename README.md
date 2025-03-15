@@ -104,6 +104,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 - **Hide All Windows** - You can hide all of the windows except for the window for the app you're currently using by pressing Option + Command + H.
 - **Cycle Between App Windows** - If you have multiple windows open for an app like Safari, you can swap between those open windows using Command + the Tilde (~) key.
 - **Switch Between Multiple Desktops** - If you use multiple desktops, you can swap between them quickly by pressing the Control button and then either the left or the right arrow.
+- **Widgets on Desktop or Notification Center** - To add widgets to your desktop, right click on the desktop and choose "Edit Widgets". This will open the Widget Picker, where you can choose from a variety of widgets to add to your desktop. You can also add them to your Notification Center. Click the time in the top right, or swipe two fingers from the right edge of your trackpad to access the Notification Center.
 
 ### Managing Files
 
