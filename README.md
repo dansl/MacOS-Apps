@@ -57,6 +57,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | [Kaleidoscope](https://kaleidoscope.app) | $ | Visual diff tool for images and text files. |
 | [Ka-Block!](https://github.com/dgraham/Ka-Block) | FREE | Ad blocker for Safari. |
 | [Kiwix](https://kiwix.org/en/) | FREE | Store local copies of Wikipedia on your Mac. |
+| [Klee](https://kleedesktop.com) | FREE | App to run your own local secure AI LLM chat. |
 | [LanScan](https://www.iwaxx.com/lanscan/) | FREE | Scan your network and look for devices and ports. |
 | [Latest](https://github.com/mangerlahn/Latest) | FREE | Scans your Mac to see if you have the latest apps installed or if you need updates. |
 | [Maccy](https://github.com/p0deje/Maccy) | FREE | Clipboard history manager for MacOS. |
