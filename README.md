@@ -69,6 +69,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 | [OpenEmu](https://github.com/Azyzraissi/OpenEmu) | FREE | Multi-platform retro gaming emulator, play almost any retro game on your Mac. |
 | [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) | FREE | 3D model slicer for prepping your models to 3D Print. |
 | [Parallels](https://www.parallels.com) | $ | Virtual Machine app for running Windows or Linux inside MacOS. |
+| [Photomator](https://www.pixelmator.com/photomator/) | $ | Photo editing software. |
 | [Pixelmator](https://www.pixelmator.com/pro/) | $ | Image creation and photo editing software. A great alternative to Photoshop, and much cheaper comparatively. |
 | [Plex](https://www.plex.tv) | FREE | Media server that will stream your music, movies and TV shows to any device. |
 | [Plexamp](https://www.plex.tv/plexamp/) | FREE | Music streaming app that will stream music from your Plex server. Also has AI playlist generation. |
