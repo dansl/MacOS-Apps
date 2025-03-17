@@ -416,9 +416,4 @@ These are ways to make your terminal more efficient and more enjoyable! Highly r
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - zsh-autosuggestions is a plugin for zsh that provides auto-suggestions based on your command history.
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - zsh-syntax-highlighting is a plugin for zsh that provides syntax highlighting for commands.
 
-Thanks for reading. Follow me for more!
-- [Website](https://dansl.net)
-
-- [Bluesky](https://bsky.app/profile/dansnull.bsky.social)
-
-- [Mastodon](https://mastodon.social/@DansNull)
+Thanks for reading. [Follow me](https://bsky.app/profile/dansnull.bsky.social) for more!
