@@ -12,4 +12,4 @@ jobs:
         username: ${{ secrets.USER }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: cd /var/www/dansl.net/pages && wget -O macos.md https://raw.githubusercontent.com/dansl/MacOS-Stuff/refs/heads/main/README.md &&  git commit -a -m "updated macos.md" && gh repo sync 
+        script: cd /var/www/dansl.net/pages && wget -O macos.md https://raw.githubusercontent.com/dansl/MacOS-Stuff/refs/heads/main/README.md &&  git commit -a -m "updated macos.md" && git push 
