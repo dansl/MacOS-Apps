@@ -2,6 +2,9 @@
 Here's a list of all my favorite MacOS apps, tips, and tricks.
 
 ## MacOS Apps
+
+Note: Some of these apps cost money, so as an alternative to buying them outright, there is a great service called [Setapp](https://macpaw.com/setapp). It's a subscription service that will give you access to most of these paid apps and many more for a monthly fee. Also a good way to try out these apps before buying them.
+
 | Name | Price | Note |
 | --- | --- | --- |
 | [1Password](https://1password.com) | $ | Great cross-platform password manager app if you have other non-Apple devices, otherwise Apple's Password app works great too. |
@@ -406,7 +409,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 
 ### Terminal Apps and Plugins
 
-These are ways to make your terminal more efficient and more enjoyable! Highly recommend getting [Homebrew](https://brew.sh/) setup so you can install these more easily.
+These are CLI based apps that make your termainal more efficient and more enjoyable! Highly recommend getting [Homebrew](https://brew.sh/) setup so you can install these much more easily.
 
 - [bat](https://github.com/sharkdp/bat) - bat is a replacement for cat command so you can view files in command line with syntax highlighting.
 - [btop](https://github.com/aristocratos/btop) - btop is a replacement for top command that displays system resources and running tasks information with syntax highlighting.
@@ -415,5 +418,6 @@ These are ways to make your terminal more efficient and more enjoyable! Highly r
 - [navi](https://github.com/denisidoro/navi) - navi is a cheatsheet for your terminal. Download community made cheatsheets with various commonly used command snippets and examples, and easily search for them to use.
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - zsh-autosuggestions is a plugin for zsh that provides auto-suggestions based on your command history.
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - zsh-syntax-highlighting is a plugin for zsh that provides syntax highlighting for commands.
+- [PowerLevel10K](https://github.com/romkatv/powerlevel10k) - An awesome theme for ZSH.
 
 Thanks for reading. [Follow me](https://bsky.app/profile/dansnull.bsky.social) for more!
