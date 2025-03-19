@@ -30,6 +30,7 @@ Note: Some of these apps cost money, so as an alternative to buying them outrigh
 | Apple TV | FREE | Comes pre-installed with MacOS, a great streaming service. |
 | Automator | FREE | Comes pre-installed with MacOS, a powerful tool for automating tasks. |
 | [balenaEtcher](https://etcher.balena.io) | FREE | Flash images to external storage devices. Great for flashing SDcards. |
+| [Bartender](https://www.macbartender.com) | $ | Organize your menu bar icons and more. |
 | [Berty](https://berty.tech) | FREE | Open-source decentralized messaging app with end-to-end encryption. |
 | [BetterDisplay](https://github.com/waydabber/BetterDisplay) | $ | Support and control non-Apple displays. |
 | [Bitdefender](https://apps.apple.com/us/app/bitdefender-virus-scanner/id500154009?mt=12) | FREE | Anti-virus scanner to protect your Mac from viruses and malware. |
