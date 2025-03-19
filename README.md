@@ -3,7 +3,7 @@ Here's a list of all my favorite MacOS apps, tips, and tricks.
 
 ## MacOS Apps
 
-Note: Some of these apps cost money, so as an alternative to buying them outright, there is a great service called [Setapp](https://macpaw.com/setapp). It's a subscription service that will give you access to most of these paid apps and many more for a monthly fee. Also a good way to try out these apps before buying them.
+Note: Some of these apps cost money, so as an alternative to buying them outright, there is a great service called [Setapp](https://setapp.com). It's a subscription service that will give you access to most of these paid apps and many more for a monthly fee. Also a good way to try out these apps before buying them.
 
 | Name | Price | Note |
 | --- | --- | --- |
