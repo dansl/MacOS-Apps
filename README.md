@@ -35,6 +35,7 @@ Note: Some of these apps cost money, so as an alternative to buying them outrigh
 | [BetterDisplay](https://github.com/waydabber/BetterDisplay) | $ | Support and control non-Apple displays. |
 | [Bitdefender](https://apps.apple.com/us/app/bitdefender-virus-scanner/id500154009?mt=12) | FREE | Anti-virus scanner to protect your Mac from viruses and malware. |
 | [Blender](https://www.blender.org) | FREE | 3D modeling application. |
+| [Calibre](https://github.com/kovidgoyal/calibre) | FREE | Calibre is an e-book manager. It can view, convert, edit and catalog e-books in all of the major e-book formats. |
 | [CleanMyMac](https://cleanmymac.com) | $ | Storage cleaner and Virus Scanner. Can free up lots of space and keep you safe. |
 | [CyberDuck](https://cyberduck.io) | FREE | FTP and remote file management application. |
 | [DaisyDisk](https://daisydiskapp.com) | $ | Visualizes all your storage space for easier cleanup. |
