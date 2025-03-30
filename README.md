@@ -96,6 +96,7 @@ Note: Some of these apps cost money, so as an alternative to buying them outrigh
 | [Windows RDP App](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12) | FREE | Remote Desktop App for non-MacOS devices. |
 | [WireShark](https://www.wireshark.org) | FREE | Network protocol analyzer. |
 | [Xcode](https://developer.apple.com/xcode/) | FREE | Apple's IDE for developing software. |
+| [Yac Reader](https://www.yacreader.com) | FREE | A comic and graphic novel reader app. |
 | [Zed](https://zed.dev) | FREE | Amazing text editor and development IDE with local AI support and much much more. |
 
 ## MacOS Tips and Tricks
