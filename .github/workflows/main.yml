@@ -1,15 +1,31 @@
-name: Upload file to remote server
-on: [push]
+name: Push to Site Repo
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
- build:
-  name: Build
-  runs-on: ubuntu-latest
-  steps:
-    - name: Upload file to remote server
-      uses: appleboy/ssh-action@v1
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USER }}
-        password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        script: cd /var/www/dansl.net/pages && wget -O macos.md https://raw.githubusercontent.com/dansl/MacOS-Stuff/refs/heads/main/README.md &&  git commit -a -m "updated macos.md" && git push 
+  update-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current repo
+        uses: actions/checkout@v3
+
+      - name: Update page to target repo
+        run: |
+          git clone https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/dansl/dansl.github.io target-repo
+          cp README.md target-repo/pages/macos.md
+
+          cd target-repo
+          git config user.email "139961+dansl@users.noreply.github.com"
+          git config user.name "dansl"
+          
+          if ! git diff --quiet -- pages/macos.md; then
+            git add pages/macos.md
+            git commit -m "Update page from source repo"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
